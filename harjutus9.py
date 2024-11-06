@@ -1,10 +1,24 @@
 # 24.10.24 Andre Meronen
 # Ülesanne 9 tsüklid
 import random
+import turtle
+#9.14 harjutus 3 kujundit
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+"""
 ev_data = [
 ['vehicle', 'range', 'price'],
 ['Tesla Model Y Long Range', '330', '58990'],
@@ -36,7 +50,7 @@ for car in ev_data:
 print(f"keskmine läbisoit: {sum(labisoit)/len(labisoit)}")
 print(f"keskmine hind: {sum(hinnad)/len(hinnad)}€")
 print(kolmsada)
-
+"""
 
 
 """
@@ -193,3 +207,4 @@ for i in range(6):
 # # #         print(i, end=" ")
 
 # # # print()
+turtle.done
