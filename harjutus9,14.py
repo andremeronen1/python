@@ -6,65 +6,14 @@ a = 120
 b = 60
 turtle.speed(0)
 
-
-for i in range(3):
-    turtle.fd(d/2)
-    turtle.left(a)
-turtle.penup()
-turtle.goto(-24,43)
-turtle.pendown()
-
-for i in range(3):
-    turtle.fd(d/2)
-    turtle.rt(a)
-
-turtle.lt(b)
-for i in range(3):
-    turtle.fd(d/2)
-    turtle.rt(a)
-
-turtle.fd(d/2)
-turtle.rt(b)
-for i in range(3):
-    turtle.fd(d/2)
-    turtle.rt(a)
-
-turtle.fd(d/2)
-turtle.rt(b)
-for i in range(3):
-    turtle.fd(d/2)
-    turtle.rt(a)
-
-turtle.fd(d/2)
-turtle.rt(b)
-for i in range(3):
-    turtle.fd(d/2)
-    turtle.rt(a)
-turtle.lt(a)
-
-
-turtle.penup()
-turtle.goto(d,0)
-turtle.pendown()
-for i in range(4):
-    turtle.fd(d)
-    turtle.lt(90)
-
-turtle.penup()
-turtle.goto(125,0)
-turtle.pendown()
-turtle.pencolor("Red")
-for i in range(4):
-    turtle.fd(d/2)
-    turtle.lt(90)
-
-turtle.penup()
-turtle.goto(d,d)
-turtle.pencolor("Green")
-turtle.pendown()
-for i in range(3):
-    turtle.fd(d)
+for i in range(6):
     turtle.lt(a)
+    turtle.rt(b)
+    for i in range(3):
+        turtle.fd(d/2)
+        turtle.left(a)
+
+
 
 turtle.penup()
 turtle.goto(350,0)
