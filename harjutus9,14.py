@@ -16,6 +16,29 @@ for i in range(6):
 
 
 turtle.penup()
+turtle.goto(d,0)
+turtle.pendown()
+for i in range(4):
+    turtle.fd(d)
+    turtle.lt(90)
+
+turtle.penup()
+turtle.goto(125,0)
+turtle.pendown()
+turtle.pencolor("Red")
+for i in range(4):
+    turtle.fd(d/2)
+    turtle.lt(90)
+
+turtle.penup()
+turtle.goto(d,d)
+turtle.pencolor("Green")
+turtle.pendown()
+for i in range(3):
+    turtle.fd(d)
+    turtle.lt(a)
+
+turtle.penup()
 turtle.goto(350,0)
 turtle.pendown()
 
