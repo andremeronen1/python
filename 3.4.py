@@ -1,3 +1,4 @@
-import os
-kysimus=int(input("Mis laulu sa soovid? "))
-laul=os.path.isfile("Pyhton is.töö 2 failid")
+failinimi=input("Vali faili nimi: ")
+fail=open("edm.txt","r+")
+read=fail.readlines()
+print(read)

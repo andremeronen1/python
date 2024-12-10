@@ -1,5 +1,6 @@
-import math
-import round_up
-ounte_kogus=int(input("Sisestage õunte kogus kilogrammides: "))
-mahlapakide_arv=round_up(ounte_kogus *0,4/3)
-print(mahlapakide_arv)
+def mahlapakkide_arv(kg):
+    arv = int(round(kg*0.4/3,0))
+    return arv
+
+ounad = int(input("Õunte kogus: "))
+print(mahlapakkide_arv(ounad))
