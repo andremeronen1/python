@@ -3,6 +3,7 @@
 
 import requests
 
+
 city = "Haapsalu"
 api_key = "ef69c18a5e2e7cd2393c6a9c9323a8e2"
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
